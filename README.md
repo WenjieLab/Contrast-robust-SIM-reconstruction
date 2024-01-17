@@ -23,9 +23,7 @@ The code is developed for CR-SIM reconstruction and is related to the paper "Dee
 - The output SR images will be saved in --data_dir
 
 ### Scenario 2: Train your own data
-Step 1: Prepare the training dataset:
-- You can train a new CR-SIM model using your own datasets. Note that you'd better divide the dataset of each specimen into training part and validation/testing part before training, so that you can test your model with the preserved validation/testing data
-Step 1:
+- Prepare the training dataset:You can train a new CR-SIM model using your own datasets. Note that you'd better divide the dataset of each specimen into training part and validation/testing part before training, so that you can test your model with the preserved validation/testing data
 - Run `python train.py` in your terminal to train a new CR-SIM model. Similar to testing, before running the python file, you should check if the data paths and the arguments are set correctly
 - Model weights will be saved in `../trained_models_Data` by default
 
