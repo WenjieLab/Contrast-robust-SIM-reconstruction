@@ -8,7 +8,7 @@ The code is developed for CR-SIM reconstruction and is related to the paper "Dee
 - Download the repo from Github:
   `https://github.com/WenjieLab/Contrast-robust-SIM-reconstruction.git`
 
-- Create a conda environment for pssr:
+- Create a conda environment for crsim:
   `conda create --name crsim python=3.7`
 
 - Activate the conda environment:
