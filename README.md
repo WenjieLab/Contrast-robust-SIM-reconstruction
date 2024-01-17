@@ -19,8 +19,15 @@ The code is developed for CR-SIM reconstruction and is related to the paper "Dee
 
 ### Scenario 1: Inference using our pretrained models
 - Download pre-trained models of CR-SIM and place them in ```./weight/```
+- Open your terminal and run `python predict.py` in your terminal. Note that before running the python file, you should check if the data paths and other arguments in predict.py are set correctly
+- The output SR images will be saved in --data_dir
 
 ### Scenario 2: Train your own data
+Step 1: Prepare the training dataset:
+- You can train a new CR-SIM model using your own datasets. Note that you'd better divide the dataset of each specimen into training part and validation/testing part before training, so that you can test your model with the preserved validation/testing data
+Step 1:
+- Run `python train.py` in your terminal to train a new CR-SIM model. Similar to testing, before running the python file, you should check if the data paths and the arguments are set correctly
+- Model weights will be saved in `../trained_models_Data` by default
 
 # Model Structure
 ![image](https://github.com/WenjieLab/Contrast-robust-SIM-reconstruction/assets/52398597/cb8c0d18-b10d-40b4-8dc7-dc9ad3510fa2) <br>
