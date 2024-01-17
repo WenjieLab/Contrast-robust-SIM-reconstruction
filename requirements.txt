@@ -1,0 +1,10 @@
+imageio==2.9.0
+Keras==2.3.1
+matplotlib==3.1.2
+numpy==1.17.0
+numpy==1.19.5
+opencv_python==4.8.1.78
+Pillow==8.2.0
+Pillow==10.2.0
+scikit_image==0.18.3
+tensorflow==2.2.0
