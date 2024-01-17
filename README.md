@@ -7,6 +7,26 @@ Keras 2.3.1 <br>
 CUDA 11.1 <br>
 Python 3.7 <br>
 
+# Use Guide
+### Environment Set-up
+- Install Anaconda ([Learn more](https://docs.anaconda.com/anaconda/install/))
+
+- Download the repo from Github:
+  `https://github.com/WenjieLab/Contrast-robust-SIM-reconstruction.git`
+
+- Create a conda environment for pssr:
+  `conda create --name crsim python=3.7`
+
+- Activate the conda environment:
+  `conda activate crsim`
+
+- Install crsim dependencies:
+
+### Scenario 1: Inference using our pretrained models
+- Download pre-trained models of CR-SIM and place them in ```./weight/```
+
+### Scenario 2: Train your own data
+
 # Model Structure
 ![image](https://github.com/WenjieLab/Contrast-robust-SIM-reconstruction/assets/52398597/cb8c0d18-b10d-40b4-8dc7-dc9ad3510fa2) <br>
 Our CR-SIM network is based on Residual U-Net, which consists of an Encoder-Decoder structure with skip connections. The combination of U-Net and residual allows the CR-SIM network to be a reliable and efficient solution for super-resolution SIM reconstruction. <br>
