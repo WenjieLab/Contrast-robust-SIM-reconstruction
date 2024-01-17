@@ -1,13 +1,7 @@
 # CR-SIM
 The code is developed for CR-SIM reconstruction and is related to the paper "Deep learning enables contrast-robust super-resolution reconstruction in structured illumination microscopy." (will be updated soon)
 
-# Environment
-GPU: NVIDIA GeForce RTX 2060 <br>
-Keras 2.3.1 <br>
-CUDA 11.1 <br>
-Python 3.7 <br>
-
-# Use Guide
+# User Guide
 ### Environment Set-up
 - Install Anaconda ([Learn more](https://docs.anaconda.com/anaconda/install/))
 
@@ -21,6 +15,7 @@ Python 3.7 <br>
   `conda activate crsim`
 
 - Install crsim dependencies:
+  `pip install -r requirements.txt`
 
 ### Scenario 1: Inference using our pretrained models
 - Download pre-trained models of CR-SIM and place them in ```./weight/```
