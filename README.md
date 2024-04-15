@@ -1,5 +1,5 @@
 # CR-SIM
-The code is developed for CR-SIM reconstruction and is related to the paper "Deep learning enables contrast-robust super-resolution reconstruction in structured illumination microscopy." (will be updated soon)
+The code is developed for CR-SIM reconstruction and is related to the paper ["Deep learning enables contrast-robust super-resolution reconstruction in structured illumination microscopy." ](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-3-3316&id=545661)
 
 # User Guide
 ### Environment Set-up
