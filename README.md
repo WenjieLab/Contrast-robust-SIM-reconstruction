@@ -22,7 +22,7 @@ Yunbo Chen,  Cuifang Kuang, Youhua Chen, and Wenjie Liu
   `pip install -r requirements.txt`
 
 ### Scenario 1: Inference using our pretrained models
-- Download pre-trained models of CR-SIM and place them in ```./weight/```
+- Download pre-trained models of CR-SIM (https://figshare.com/account/items/26037919/edit) and place them in ```./weight/```
 - Open your terminal and run `python predict.py` in your terminal. Note that before running the python file, you should check if the data paths and other arguments in predict.py are set correctly
 - The output SR images will be saved in ```./testdata/raw/output_raw-model/```
 
